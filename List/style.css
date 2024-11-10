@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+}
+
+h1 {
+    font-family: "Varela Round", sans-serif;
+    font-size: 72px;
+    color: rgb(103, 101, 255);
+}
+
+.type_container {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 15px 1px;
+    min-height: 50px;
+    min-width: 400px;
+    max-width: 1000px;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 100px 2px cornflowerblue;
+}
+
+input {
+    border: none;
+    background-color: aliceblue;
+    font-family: "Varela Round", sans-serif;
+    font-size: 20px;
+}
+#add_btn {
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    font-family: "Varela Round", sans-serif;
+    font-size: 17px;
+    color: rgb(103, 101, 255);
+    margin-top: 7px;
+    min-height: 30px;
+    min-width: 70px;
+    max-height: 35px;
+    transition: all 0.1s ease-in;
+}
+
+.list_container {
+    border-radius: 15px;
+    box-shadow: 2px 2px 70px 1px cornflowerblue;
+    background-color: aliceblue;
+    margin-top: 50px;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 100px;
+    padding: 30px;
+}
+
+#add_btn:hover {
+    background-color: #9dc5d1;
+    border-radius: 10px;
+}
+
+#add_btn:active {
+    transform: scale(90%);
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Varela Round", sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgb(211, 70, 110);
+}
+
+.delete {
+    background-color: transparent;
+    border: none;
+    scale: 250%;
+    color: red;
+    transition: all 0.1s ease-in;
+}
+
+.delete:hover {
+    color: #9d0b0b;
+    transform: scale(115%);
+}
+
+.delete:active {
+    transform: scale(115%);
+}
